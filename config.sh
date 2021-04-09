@@ -1,19 +1,19 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER=eevnxx-ai
+GITHUB_EMAIL=akbareevnxx@gmail.com
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="akbar"
+KBUILD_BUILD_HOST="litchdesuu"
 
-export oem=motorola
-export device=harpia
+export oem=xiaomi
+export device=ugglite
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+ROM="LineageOS"
+manifest_url="https://github.com/LineageOS/android"
+export rom_vendor_name="lineage" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+branch="lineage-17.1"
 
-release_repo="Akianonymus/harpia_builds"
+release_repo="eevnxx-ai/ugglite_build"
 
-timezone="Asia/Kolkata"
+timezone="Asia/Jakarta"
